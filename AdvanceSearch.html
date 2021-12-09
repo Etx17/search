@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- FONT AWESOME ICONS-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <!-- CSS-->
+        <link rel="stylesheet" type="text/css" href="advance.css">
+        <title>Search</title>
+        <!-- meta viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <div class="supercontainer">
+            <header>
+                <nav class="navbar-advanced">  
+                    <a class="logo" href="index.html"><img src="./google logo.png" height="30px" width="87px"></a>
+                    <button type="button" class="connexion">Connexion</button>           
+                </nav>    
+                <div class="title-advanced">
+                    <h3>Recherche avancée</h3>   
+                </div>      
+            </header>
+            
+            
+
+
+                    <div class="form-advanced">
+                        <div class="form-title"><p>Trouvez des pages avec... </p><p class="hidden" id="hiddentitle">Pour effectuer cette opération dans le champ de recherche</p></div> 
+
+                            <div class=columns>                  
+                                <form action="https://www.google.com/search" method="GET" name="f">
+                                    <div class="form-container">
+                                        <label for="tous-les-mots"><p>tous les mots suivants :</p></label>
+                                        <input class="champ" value autofocus="autofocus" id="first" name="as_q" type="text"> <br/> 
+                                        <!--<p class="hidden">Saisissez les mots importants :<span>terrier tricolore</span> </p> -->
+                                    </div>
+                                    <div class="form-container">
+                                        <label for="cette-expression-exacte"><p>ce mot ou cette expression exacte :</p></label>
+                                        <input class="champ" value autofocus="autofocus" id="second" name="as_epq" type="text"/><br/> 
+                                        <!--<p class="hidden">Ajoutez des guillemets autour des mots exacts :<span> "terrier"</span></p> -->
+                                    </div>
+                                    <div class="form-container">
+                                        <label for="un-mot"><p>l'un des mots suivants :</p></label>
+                                        <input class="champ" value autofocus="autofocus" id="third" name="as_oq" type="text"/><br/> 
+                                        <!--<p class="hidden"> Saisissez <span>OR</span>entre tous les mots à inclure :<span> miniature OR standard</span></p> -->
+                                    </div>
+                                    <div class="form-container">   
+                                        <label for="aucun-mot"><p>aucun des mots suivants :</p></label>
+                                        <input class="champ" value autofocus="autofocus" id="fourth" name="as_eq" type="text"/><br/> 
+                                        <!--<p class="hidden">test</p>-->
+                                    </div>
+                                    
+                                    <input type="submit" value="Advanced Search" class="input-submit">
+                                </form>
+
+                                <div class="column-two">
+ 
+                                    <p class="hiddenp">Saisissez les mots importants : terrier tricolore</p>
+                                    <p class="hiddenp">Saisissez OR entre tous les mots à inclure : miniature OR standard</p>
+                                    <p class="hiddenp">Placez un signe - (moins) devant les mots à exclure : -rongeur, -"Jack Russell"</p>
+                                    <p class="hiddenp">Placez deux points entre les nombres, et ajoutez une unité de mesure : 10..35 kilos, 300..500 USD, 2010..2011</p>
+                                </div>
+                            </div>
+                    </div>
+<!-- todo : quand la page s'étend à plus de 6OOpx, faire apparaitre la suite du contenu-->
+        </div>
+    </body>
+    <footer>
+        <div class="country"><p class="france">France</p></div> 
+        <ul id="navlist">
+            <li><p>Aide</p></li>
+            <li><p>Confidentialité</p></li>
+            <li><p>Conditions</p></li>
+        </ul>
+        
+    </footer>
+   
+</html> 
+
+
+

@@ -1,0 +1,123 @@
+*{
+    border: solid grey 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#202124;
+    
+}
+body {
+    height: auto;
+    
+}
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+nav {
+    text-align: end;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+ul {
+    padding: 0px 20px;
+}
+ a {
+    text-decoration: none;
+    color: rgb(223, 217, 217);
+ }
+
+ a:hover{
+     text-decoration: underline;
+ }
+
+
+ .connexion{
+     background-color:#93BAF9;
+     border-radius: 5px;
+     height: 39px;
+     color: black;
+     width: 130px;
+     font-size: 15px;
+ }
+
+ .connexion:hover{
+    box-shadow: 3px 3px blur grey;
+    background-color: rgb(151, 198, 229);
+ }
+
+ .logo {
+     height: 152px;
+     width: auto;
+     text-align: center;
+    padding-top: 50px;
+ }
+
+ .searchbar-container {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 300px;
+ }
+
+ .searchbar-field{
+     background-color:#202124;
+     width: 580px;
+     height: 44px;
+     border-radius: 30px;
+     border: solid 1px grey;
+     color: white;
+     font-size: 17px;
+     padding-left: 49px;
+ }
+
+ .searchbar-field:hover{
+    background-color:#303134;
+ }
+.input-submit {
+    color: white;
+    height: 36px;
+    background-color: #303134;
+    width: 160px;
+    padding: 30px auto;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+.input-submit:hover{
+    border: solid 1px grey;
+}
+
+
+
+footer {
+    background-color: #171717;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+.footer ul > li {
+    background-color: #171717;
+    color: grey;
+    margin: auto 0;
+} 
+
+#navlist {
+    display:flex;
+    background-color: #171717;
+    color: gray;
+    height: 60px;
+    margin: 1px 0;
+    justify-content: space-around;
+}
+ #searchicon{
+     color: grey;
+     font-size:larger;
+     position: relative;
+     top: 34px;
+     right: 283px;
+     background-color: transparent;
+ }
